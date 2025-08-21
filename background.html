@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Add image in Background -->
+    <div class="bg-cyan-200 size-100 bg-[url(luffy.jpg)] bg-center bg-no-repeat bg-cover">
+        Adding an image in the background with Tailwind CSS 4
+    </div>
+
+
+    <!-- Add gradient in Background -->
+    <div class="bg-gradient-to-l to-green-500 from-blue-500 size-100 p-4 mt-4">
+        Adding a gradient in the background Left to Right with Tailwind CSS 4
+    </div>
+
+    <div class="bg-gradient-to-r to-red-500 from-yellow-500 size-100 p-4 mt-4">
+        Adding a gradient in the background Right to Left with Tailwind CSS 4
+    </div>
+
+    <div class="bg-gradient-to-tl to-blue-500 from-yellow-500 size-100 p-4 mt-4">
+        Adding a gradient in the background Top Left corner with Tailwind CSS 4
+    </div>
+
+    <div class="bg-gradient-to-tr to-green-500 from-red-500 size-100 p-4 mt-4">
+        Adding a gradient in the background Left to Right with Tailwind CSS 4
+    </div>
+
+
+    <!-- Adding Shadow to Background -->
+    <div class="size-100 m-30 shadow-orange-400 shadow-2xl"> Outside Shadow</div>
+    <div class="size-100 m-30 shadow-inner shadow-blue-400"> Inside Shadow</div>
+    <div class="size-100 m-30 shadow-lg shadow-purple-400"> Large Shadow</div>
+</body>
+</html>
